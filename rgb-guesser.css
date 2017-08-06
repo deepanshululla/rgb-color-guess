@@ -1,0 +1,73 @@
+body {
+    background-color: #232323;
+    color: white;
+    font-family: "Montserrat", "Avenir";
+    font-size: 1.5em;
+}
+.square{
+    width:30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+    /*for being browser friendly we need to enter these properties*/
+    -webkit-transition: background 0.6s;
+    /* for safari users*/
+    -moz-transition: background 0.6s;
+    /* for mozilla users*/
+}
+#square-container{
+    width: 45%;
+    margin: 20px auto;
+    padding-top: 15%;
+    /* the margin auto makes it center aligned*/
+}
+
+.navcustom {
+    background-color: steelblue;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding-top: 20px;
+}
+#stripe{
+    background: white;
+    /*height: 30px;*/
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+}
+.btn-primary{
+    height: 100%;
+    border: 0;
+    color: steelblue;
+    background: white;
+    font-size: 1.5em;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 1.0s;
+    -webkit-transition: all 0.6s;
+    /* for safari users*/
+    -moz-transition: all 0.6s;
+    /* for mozilla users*/
+    outline: none;
+    /*removes the outline border in a button*/
+
+}
+.selected-level{
+    color:white;
+    background: steelblue;
+}
+#try-again-msg{
+    font-size: 1.5em;
+    display: inline-block;
+    width: 30%;
+    text-transform: capitalize;
+}
+button:hover{
+    color:white;
+    background: steelblue;
+}

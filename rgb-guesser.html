@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="rgb-guesser.css">
+</head>
+<body>
+ <nav class="navbar navbar-fixed-top navcustom">
+        <div class="container" align="center">
+            <h1> The Great Color game</h1>
+            <h2>Guess which color is <span id="color-display"></span></h2>
+           
+        </div>
+        
+         <div id="stripe">
+            <div class="container">
+                <button class="btn-primary" id="reset" align="left">New Colors</button>
+                <span id="try-again-msg">
+                    
+                </span>
+                <button class="btn-primary mode" id="easyBtn" align="right">Easy</button>
+                <button class="mode btn-primary" id="mediumBtn" align="right">Medium</button>
+                <button class="mode btn-primary selected-level" id="hardBtn" align="right">Hard</button>
+            </div>
+                
+        </div>
+       
+
+</nav>
+<div class="container" id="square-container">
+    
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <!-- the number of squares shoudl be equal to the number of sqaures in the hardest level -->
+</div>
+
+<!-- jquery url -->
+    <script   src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+ <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- our script -->
+    <script type="text/javascript" src="rgb-guesser.js"></script>
+</body>
+</html>
